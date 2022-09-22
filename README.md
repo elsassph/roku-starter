@@ -49,6 +49,15 @@ npm run dev
 npm run lint
 ```
 
+Change `bslint` default [rules](https://github.com/rokucommunity/bslint#plugin-configuration) in `bslint.json`.
+
+Still, sometimes you need to ignore false positives, or exclude 3rd party code from linting:
+
+- [diagnosticFilters](https://github.com/rokucommunity/brighterscript#bsconfigjson-options) in `bsconfig.json` to filter errors (after they are collected),
+- [ignores](https://github.com/rokucommunity/bslint#plugin-configuration) in `bslint.json` to skip files from advanced linting
+
+You can also add inline comments `' bs:disable-...` to [ignore errors and warnings on a per-line basis](https://github.com/rokucommunity/brighterscript#ignore-errors-and-warnings-on-a-per-line-basis).
+
 ## Building
 
 Prepare package:
