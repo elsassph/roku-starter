@@ -1,0 +1,6 @@
+{
+  "rootDir": "src",
+  "sourceMap": true,
+  "files": ["manifest", "source/**/*.*", "components/**/*.*", "images/**/*.*"],
+  "plugins": ["@rokucommunity/bslint"]
+}

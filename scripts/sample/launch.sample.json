@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "brightscript",
+      "request": "launch",
+      "name": "BrightScript Debug: Launch",
+      "stopOnEntry": false,
+      "envFile": "${workspaceFolder}/.env",
+      "host": "${env:ROKU_HOST}",
+      "password": "${env:ROKU_PWD}",
+      "enableDebugProtocol": false,
+      "enableDebuggerAutoRecovery": false,
+      "stopDebuggerOnAppExit": false
+    }
+  ]
+}

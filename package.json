@@ -1,0 +1,27 @@
+{
+  "name": "roku-starter",
+  "version": "1.0.0",
+  "description": "Starter Roku project",
+  "scripts": {
+    "postinstall": "node scripts/setup.js",
+    "dev": "node scripts/dev.js",
+    "build": "node scripts/build.js",
+    "build:prod": "node scripts/build.js --env=production",
+    "deploy": "node scripts/deploy.js",
+    "sign": "node scripts/deploy.js --sign=true",
+    "format": "node scripts/format.js",
+    "format:write": "node scripts/format.js --write"
+  },
+  "author": "Philippe Elsass",
+  "license": "ISC",
+  "dependencies": {
+    "@rokucommunity/bslint": "^0.7.5",
+    "brighterscript": "^0.57.2",
+    "brighterscript-formatter": "^1.6.16",
+    "dotenv": "^16.0.2",
+    "glob": "^8.0.3",
+    "properties-file": "^1.0.0",
+    "roku-deploy": "^3.9.1",
+    "yarg": "^1.0.8"
+  }
+}
