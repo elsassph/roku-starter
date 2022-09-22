@@ -5,6 +5,7 @@
   "scripts": {
     "postinstall": "node scripts/setup.js",
     "dev": "node scripts/dev.js",
+    "lint": "bslint",
     "build": "node scripts/build.js",
     "build:prod": "node scripts/build.js --env=production",
     "deploy": "node scripts/deploy.js",

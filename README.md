@@ -43,6 +43,12 @@ npm run dev
 
 (or just Run > Start debugging in VSCode)
 
+## Linting
+
+```
+npm run lint
+```
+
 ## Building
 
 Prepare package:
